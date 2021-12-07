@@ -1,0 +1,19 @@
+{
+ //   "launch": {
+
+   //     "configurations": [],
+    //    "compounds": []
+    //}
+    // Always include all words from the current document.
+    
+    "javascript.suggest.completeFunctionCalls": true,
+
+// Complete functions with their parameter signature.
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+"launch": {
+
+    "configurations": [],
+    "compounds": []
+}
+
+}

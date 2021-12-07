@@ -1,0 +1,30 @@
+.home {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__image {
+  /* below in the linear gradient color has four value
+    and the last one is for opacity 
+    and also to bottom means that first color 
+    that comes after comma is top and seond will 
+    is at bottom with its properties*/
+  width: 100%;
+  /* Used webkit here because the mask image 
+  is not being read by ggole right now*/
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
